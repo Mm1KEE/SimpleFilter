@@ -1,0 +1,3 @@
+rawDataFilter KEYWORD2
+getXAvg() KEYWORD2
+getYAvg KEYWORD2
