@@ -1,13 +1,13 @@
 /*
    @Author: Mm1KEE
-   @GitHub: https://github.com/Mm1KEE/ClosestAverage
+   @GitHub: https://github.com/Mm1KEE/SimpleFilter
    @Date: 2022-08-29 22:24:24
    @LastEditTime: 2022-08-29 22:32:07
-   @Description: This demonstrates shows how to use ClosestAverage library.
+   @Description: This example demonstrates shows how to use SimpleFilter library.
 
    Copyright (c) 2022 by Mm1KEE, All Rights Reserved.
 */
-#include <ClosestAverage.h>
+#include <SimpleFilter.h>
 int xArray[3] = { -16, 3, 1};
 int yArray[3] = { -126, 2, 2 };
 int xAvg, yAvg;
