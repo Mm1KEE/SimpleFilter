@@ -1,6 +1,6 @@
 /*
  * @Author: Mm1KEE
- * @GitHub: https://github.com/Mm1KEE/ClosestDataAverage
+ * @GitHub: https://github.com/Mm1KEE/ClosestAverage
  * @Date: 2022-08-28 20:47:36
  * @LastEditTime: 2022-08-29 00:13:16
  * @Description: denoising for the raw input from touch screen

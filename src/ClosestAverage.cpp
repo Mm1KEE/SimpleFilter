@@ -1,13 +1,13 @@
 /*
  * @Author: Mm1KEE
- * @GitHub: https://github.com/Mm1KEE/ClosestDataAverage
+ * @GitHub: https://github.com/Mm1KEE/ClosestAverage
  * @Date: 2022-08-28 20:47:36
  * @LastEditTime: 2022-08-29 00:13:54
  * @Description: 
  * 
  * Copyright (c) 2022 by Mm1KEE, All Rights Reserved. 
  */
-#include "ClosestDataAverage.h"
+#include "ClosestAverage.h"
 #include "Arduino.h"
 
 void rawDataFilter(int xArray[3], int yArray[3]) {
