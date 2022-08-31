@@ -6,24 +6,16 @@ https://www.ti.com/lit/an/sbaa155a/sbaa155a.pdf
 1.Create one (or two) array containing 3 integers.
 
 ```
-int xArray[3] = { -16, 3, 1};
-int yArray[3] = { -126, 2, 2 };
+int intArray[3] = { -16, 3, 1};
 ```
 
-2.Pass your int array to this library.
+2.Pass your int array and its length as arguments to this library.This function will return the result as integer.
 
 ```
-rawDataFilter(xArray, yArray);
+int result=rawDataFilter(intArray,3);
 ```
 
-3.Call `getXAvg()` and `getYAvg()` to get return value.
-
-```
-int xAvg=getXAvg();
-int yAvg=getYAvg();
-```
-
-Above example will get a result of `2` and `2`.
+3.Above example will get a result of `2`.
 # How this filter works
 This filter will take arrays of 3 integers,choose the closest two then return the average.  
 For example, if your touch screen reads a series of inputs `{20,22,0}`,this filter will return a result of `21`.  
